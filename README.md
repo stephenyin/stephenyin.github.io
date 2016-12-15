@@ -1,1 +1,1 @@
-# Stephen Yin's Blog
+[Stephen Yin's Blog]: https://stephenyin.github.io/
