@@ -73,34 +73,10 @@
     "category": "[&quot;Linux-system&quot;]"
   },
   
-  "wiki-android-studio": {
-    "title": "Android Studio",
-    "url": "/wiki/android-studio/",
-    "category": "[&quot;Android&quot;]"
-  },
-  
-  "wiki-badminton": {
-    "title": "Badminton",
-    "url": "/wiki/badminton/",
-    "category": "[&quot;Hobbies&quot;]"
-  },
-  
   "wiki-chinese-copywriting-guidelines": {
     "title": "中文文案排版指北（简体中文版）",
     "url": "/wiki/chinese-copywriting-guidelines/",
     "category": "[&quot;Copywriting&quot;]"
-  },
-  
-  "wiki-eclipse": {
-    "title": "Eclipse",
-    "url": "/wiki/eclipse/",
-    "category": "[&quot;Eclipse&quot;]"
-  },
-  
-  "wiki-emacs": {
-    "title": "Emacs",
-    "url": "/wiki/emacs/",
-    "category": "[&quot;Emacs&quot;]"
   },
   
   "wiki-git": {
@@ -121,18 +97,6 @@
     "category": "[&quot;Debug&quot;]"
   },
   
-  "wiki-linux": {
-    "title": "Linux/Unix",
-    "url": "/wiki/linux/",
-    "category": "[&quot;Linux&quot;]"
-  },
-  
-  "wiki-mac": {
-    "title": "Mac OS X",
-    "url": "/wiki/mac/",
-    "category": "[&quot;Mac&quot;]"
-  },
-  
   "wiki-markdown": {
     "title": "Markdown",
     "url": "/wiki/markdown/",
@@ -145,46 +109,10 @@
     "category": "[&quot;Tools&quot;]"
   },
   
-  "wiki-ollydbg": {
-    "title": "OllyDbg",
-    "url": "/wiki/ollydbg/",
-    "category": "[&quot;debug&quot;]"
-  },
-  
-  "wiki-onenote": {
-    "title": "OneNote",
-    "url": "/wiki/onenote/",
-    "category": "[&quot;Tools&quot;]"
-  },
-  
-  "wiki-php": {
-    "title": "PHP",
-    "url": "/wiki/php/",
-    "category": "[&quot;php&quot;]"
-  },
-  
-  "wiki-python": {
-    "title": "Python",
-    "url": "/wiki/python/",
-    "category": "[&quot;Python&quot;]"
-  },
-  
-  "wiki-qt-creator": {
-    "title": "Qt Creator",
-    "url": "/wiki/qt-creator/",
-    "category": "[&quot;Qt&quot;]"
-  },
-  
   "wiki-source-insight": {
     "title": "Source Insight",
     "url": "/wiki/source-insight/",
     "category": "[&quot;Tools&quot;]"
-  },
-  
-  "wiki-swimming": {
-    "title": "Swimming",
-    "url": "/wiki/swimming/",
-    "category": "[&quot;Hobbies&quot;]"
   },
   
   "wiki-template": {
