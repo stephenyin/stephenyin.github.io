@@ -1,5 +1,11 @@
 {
   
+  "2016-12-16-aptget-cannot-workfine": {
+    "title": "VirtualBox 崩溃后 apt-get 不能正常工作的问题",
+    "url": " /2016/12/16/aptget-cannot-workfine/",
+    "category": "Linux-system"
+  },
+  
   "2016-12-15-welcome-to-jekyll": {
     "title": "Welcome to Jekyll!",
     "url": " /2016/12/15/welcome-to-jekyll/",
@@ -59,6 +65,12 @@
     "title": "Welcome to Jekyll!",
     "url": "/2016/12/15/welcome-to-jekyll/",
     "category": "[&quot;Jekyll&quot;]"
+  },
+  
+  "2016-12-16-aptget-cannot-workfine": {
+    "title": "VirtualBox 崩溃后 apt-get 不能正常工作的问题",
+    "url": "/2016/12/16/aptget-cannot-workfine/",
+    "category": "[&quot;Linux-system&quot;]"
   },
   
   "wiki-android-studio": {

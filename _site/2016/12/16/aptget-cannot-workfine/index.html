@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <title>MPV &mdash; 无码的码</title>
+    <title>VirtualBox 崩溃后 apt-get 不能正常工作的问题 &mdash; 无码的码</title>
     <link rel="stylesheet" href="/assets/vendor/primer-css/css/primer.css">
     <link rel="stylesheet" href="/assets/vendor/primer-markdown/dist/user-content.min.css">
     <link rel="stylesheet" href="/assets/vendor/octicons/octicons/octicons.css">
@@ -21,23 +21,23 @@
     
 
     
-    <link rel="canonical" href="http://localhost:4000/wiki/mpv/">
+    <link rel="canonical" href="http://localhost:4000/2016/12/16/aptget-cannot-workfine/">
     <link rel="alternate" type="application/atom+xml" title="无码的码" href="/feed.xml">
     <link rel="shortcut icon" href="/favicon.ico">
     
-    <meta property="og:title" content="MPV">
+    <meta property="og:title" content="VirtualBox 崩溃后 apt-get 不能正常工作的问题">
       
-    <meta name="keywords" content="mpv">
-    <meta name="og:keywords" content="mpv">
+    <meta name="keywords" content="无码的码, Stephen Yin, 屎带芬, Code">
+    <meta name="og:keywords" content="无码的码, Stephen Yin, 屎带芬, Code">
       
-    <meta name="description" content="Mac OS X 下最好用的播放器，没有之一。">
-    <meta name="og:description" content="Mac OS X 下最好用的播放器，没有之一。">
+    <meta name="description" content="毒药">
+    <meta name="og:description" content="毒药">
       
     
     
         
     
-    <meta property="og:url" content="http://localhost:4000/wiki/mpv/">
+    <meta property="og:url" content="http://localhost:4000/2016/12/16/aptget-cannot-workfine/">
     <meta property="og:site_name" content="无码的码">
     <meta property="og:type" content="article">
     <meta property="og:locale" content="zh_CN" />
@@ -83,12 +83,25 @@
     </header>
     <!-- / header -->
 
-    <section class="collection-head small geopattern" data-pattern-id="MPV">
+    <section class="collection-head small geopattern" data-pattern-id="VirtualBox 崩溃后 ">
 <div class="container">
   <div class="columns">
     <div class="column three-fourths">
       <div class="collection-title">
-        <h1 class="collection-header">MPV</h1>
+        <h1 class="collection-header">VirtualBox 崩溃后 apt-get 不能正常工作的问题</h1>
+        <div class="collection-info">
+          
+          <span class="meta-info">
+            <span class="octicon octicon-calendar"></span> 2016/12/16
+          </span>
+          
+          
+          <span class="meta-info">
+            <span class="octicon octicon-file-directory"></span>
+            <a href="/categories/#Linux-system" title="Linux-system">Linux-system</a>
+          </span>
+          
+        </div>
       </div>
     </div>
   </div>
@@ -99,165 +112,25 @@
 <div class="columns">
   <div class="column three-fourths" >
     <article class="article-content markdown-body">
-    <p>Mac OS X 下最好用的播放器，没有之一。</p>
+    <h3 id="section">毒药</h3>
 
-<h2 id="section">快捷键</h2>
+<p>在给运行在 VirtualBox 中的 Linux mint 上安装 google-chrome-stable_current_amd64.deb 时 VirtualBox 崩溃了，重启后 apt-get 无法正常工作，得到如下错误：</p>
 
-<p>参考：<a href="https://github.com/mpv-player/mpv/blob/master/etc/input.conf">mpv keybindings</a></p>
+<div class="highlighter-rouge"><pre class="highlight"><code>$sudo apt-get install -f
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+E: The package google-chrome-stable needs to be reinstalled, but I can't find an archive for it.
+</code></pre>
+</div>
 
-<table>
-  <thead>
-    <tr>
-      <th>按键</th>
-      <th>功能</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>RIGHT</td>
-      <td>前进 5 秒</td>
-    </tr>
-    <tr>
-      <td>LEFT</td>
-      <td>后退 5 秒</td>
-    </tr>
-    <tr>
-      <td>UP</td>
-      <td>前进 60 秒</td>
-    </tr>
-    <tr>
-      <td>DOWN</td>
-      <td>后退 60 秒</td>
-    </tr>
-    <tr>
-      <td>[</td>
-      <td>0.9091 倍速播放</td>
-    </tr>
-    <tr>
-      <td>]</td>
-      <td>1.1 倍速播放</td>
-    </tr>
-    <tr>
-      <td>{</td>
-      <td>0.5 倍速播放</td>
-    </tr>
-    <tr>
-      <td>}</td>
-      <td>2.0 倍速播放</td>
-    </tr>
-    <tr>
-      <td>Backspace</td>
-      <td>还原到 1.0 倍速</td>
-    </tr>
-    <tr>
-      <td>Space 或 p</td>
-      <td>播放/暂停</td>
-    </tr>
-    <tr>
-      <td>.</td>
-      <td>下一帧</td>
-    </tr>
-    <tr>
-      <td>,</td>
-      <td>上一帧</td>
-    </tr>
-    <tr>
-      <td>9 或 /</td>
-      <td>音量 -2</td>
-    </tr>
-    <tr>
-      <td>0 或 *</td>
-      <td>音量 +2</td>
-    </tr>
-    <tr>
-      <td>f</td>
-      <td>切换是否全屏</td>
-    </tr>
-    <tr>
-      <td>v</td>
-      <td>显示/隐藏字幕</td>
-    </tr>
-    <tr>
-      <td>T</td>
-      <td>切换是否前端显示</td>
-    </tr>
-    <tr>
-      <td>s</td>
-      <td>截屏，有字幕</td>
-    </tr>
-    <tr>
-      <td>S</td>
-      <td>截屏，无字幕</td>
-    </tr>
-    <tr>
-      <td>o</td>
-      <td>显示进度条与时间，2 秒后消失</td>
-    </tr>
-    <tr>
-      <td>I (大写 i)</td>
-      <td>显示当前文件名</td>
-    </tr>
-    <tr>
-      <td>1</td>
-      <td>对比度 -1</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>对比度 +1</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>亮度 -1</td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>亮度 +1</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>Gamma 值 -1</td>
-    </tr>
-    <tr>
-      <td>6</td>
-      <td>Gamma 值 +1</td>
-    </tr>
-    <tr>
-      <td>7</td>
-      <td>饱和度 -1</td>
-    </tr>
-    <tr>
-      <td>8</td>
-      <td>饱和度 +1</td>
-    </tr>
-    <tr>
-      <td>l (小写 L)</td>
-      <td>设置/清除 A-B 循环点</td>
-    </tr>
-    <tr>
-      <td>j/J</td>
-      <td>选择字幕</td>
-    </tr>
-    <tr>
-      <td>#</td>
-      <td>切换声道</td>
-    </tr>
-    <tr>
-      <td>q</td>
-      <td>退出</td>
-    </tr>
-  </tbody>
-</table>
+<h3 id="section-1">解药</h3>
 
-<h2 id="section-1">命令行参数</h2>
+<p>终端运行 sudo dpkg -i</p>
 
-<p>参考：<a href="https://github.com/mpv-player/mpv/blob/master/DOCS/man/options.rst">OPTIONS</a></p>
-
-<h2 id="section-2">参考</h2>
-
-<ul>
-  <li><a href="https://segmentfault.com/a/1190000004533079">MPV使用小记</a></li>
-</ul>
-
+<div class="highlighter-rouge"><pre class="highlight"><code>$sudo dpkg -i google-chrome-stable_current_amd64.deb
+</code></pre>
+</div>
 
     </article>
     <div class="share">
