@@ -18,6 +18,7 @@ Reading state information... Done
 E: The package google-chrome-stable needs to be reinstalled, but I can't find an archive for it.
 ```
 
+
 ### 解药
 
 终端运行 sudo dpkg -i 
