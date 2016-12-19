@@ -1,14 +1,12 @@
 ---
 layout: post
 title:  "通过 valgrind 输出的偏移地址定位内存泄漏的源码行号"
-date:   2016-12-16 10:40:33 +0800
+date:   2016-12-19 16:40:33 +0800
 categories: Debug
 tags: Linux Debug
 ---
 
-# 通过 valgrind 输出的偏移地址定位内存泄漏的源码行号
-
-有时用 valgrind 定位内存泄露问题时，当内存泄露的位置在动态库( so 文件)中时, 输出的调用栈为问号(*???*)并且没有指明源码的行号.即使尝试了加 *-g* 的编译参数并且程序退出前不执行 *dlclose*,也无济于事.
+>有时用 valgrind 定位内存泄露问题时，当内存泄露的位置在动态库( so 文件)中时, 输出的调用栈为问号(*???*)并且没有指明源码的行号.即使尝试了加 *-g* 的编译参数并且程序退出前不执行 *dlclose*,也无济于事.
 
 ```
 ==29941== 17 bytes in 1 blocks are definitely lost in loss record 29 of 197  
