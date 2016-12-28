@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "从 H264 码流中解析出 nalu 单元"
+title:  "从 H264 码流中解析出 nal 单元"
 date:   2016-12-28 10:17:33 +0800
 categories: AV
 tags: AV
