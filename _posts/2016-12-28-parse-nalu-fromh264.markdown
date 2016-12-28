@@ -5,6 +5,7 @@ date:   2016-12-28 10:17:33 +0800
 categories: AV
 tags: AV
 ---
+在应用层，很多时候 IDR、SEI、PPS、SPS 是打包在一起收到的， 需要手动解析出这几种帧类型。
 
 > 定义 nalu 结构
 
